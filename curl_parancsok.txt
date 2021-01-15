@@ -1,0 +1,5 @@
+curl localhost:5000/request-counter
+curl -X POST localhost:5000/request-counter
+curl -x PUT localhost:5000/request-counter
+curl -X DELETE localhost:5000/request-counter
+

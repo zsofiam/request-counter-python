@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Request Counter</title>
+    </head>
+    <body>
+        <h1>Request Counter</h1>
+        <p>
+    Counts your requests sent to this page, be it a GET, POST, PUT or DELETE request. Cool, isn't it?
+</p>
+        <form action="/request-counter" method="get">
+
+            <button type="submit">Send a GET request!</button>
+        </form>
+        <br>
+        <form action="/request-counter" method="post">
+
+            <button type="submit">Send a POST request!</button>
+        </form>
+        <br>
+        <a href="/statistics">Statistics</a>
+    </body>
+</html>
